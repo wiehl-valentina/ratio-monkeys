@@ -101,7 +101,7 @@ nav a:hover {
 
 .cards-container {
     margin-top: 10rem;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -112,7 +112,7 @@ nav a:hover {
     display: flex;
     align-self: center;
     flex-direction: column;
-    margin: 5rem;
+    margin: 8rem;
     width: 28.7rem;
     height: 38rem;
     border-radius: 1rem;
