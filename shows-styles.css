@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    font-size: 8px;
+}
+
+:root {
+    --pink-text: #C383AD;
+    --black-text: #171616;
+    
+}
+
+body {
+    margin: 0;
+    background-color: #ffff;
+    color: var(--black-text);
+    font-family: 'Raleway', sans-serif;
+}
+
+#contenedor {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* ESTILOS DEL HEADER */
+
+header {
+    height: 8.5rem;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    position: fixed;
+    border-bottom: 0.2px solid lightgrey;
+}
+
+#logo-container {
+    display: flex;
+    width: 25%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo-container .pfp {
+    text-align: center;
+    margin: 10px;
+    width: 18%;
+   
+}
+
+#logo-container .title {
+    color: var(--pink-text);
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nav-bar {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+}
+
+a {
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px; 
+    color: #000;
+    font-weight: 400;
+
+}
+
+nav a:hover {
+    color: var(--pink-text);
+}
+
+
+/* ESTILOS DEL MAIN */
+
+#main {
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+    margin-bottom: 6rem;
+}
+
+#main-title {
+    font-size: 20px;
+}
+
+#main-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2.8rem;
+}
+
+.shows {
+    margin: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 30rem;
+    height: 12rem;
+    border-radius: 5px;
+}
+
+.shows .contenido {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.3rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.shows .pais {
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+    color: var(--pink-text);
+}
+
+
+/* ESTILOS DEL FOOTER */ 
+
+#footer {
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 30%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.icons i {
+    font-size: 2.8rem;
+    color: var(--black-text);
+    transition: all .3s ease;
+}
+
+.icons i:hover {
+    transform: scale(1.3,1.3);
+    color: var(--pink-text);
+}
+
+#footer p {
+    font-size: 1.5rem;
+}
